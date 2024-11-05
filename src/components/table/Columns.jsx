@@ -1,4 +1,4 @@
-const columnsDef = [
+const columns = [
   {
     // key (id) of dataset
     accessorKey: "id",
@@ -23,4 +23,4 @@ const columnsDef = [
   },
 ];
 
-export default columnsDef;
+export default columns;

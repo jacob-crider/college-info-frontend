@@ -1,10 +1,11 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CollegeList from './components/CollegeList';
-import CollegeDetails from './components/CollegeDetails';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Sidebar from './components/Sidebar';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CollegeList from "./components/CollegeList";
+import CollegeDetails from "./components/CollegeDetails";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
+import CollegesTable from "./components/table/CollegesTable";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/college/:id" element={<CollegeDetails />} />
           </Routes>
         </div>
+        <CollegesTable />
         <Footer />
       </div>
     </Router>
