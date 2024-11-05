@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  color: #333;
+  color: #3533;
+  width: 100%;
 }
 
 body {
@@ -14,10 +15,6 @@ body {
 a {
   text-decoration: none;
   color: #0066cc;
-}
-
-h3, h2 {
-  margin: 0.5em 0;
 }
 
 button {
